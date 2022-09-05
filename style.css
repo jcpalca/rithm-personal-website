@@ -35,7 +35,7 @@ hr {
 }
 
 .page-header {
-  background-color: rgb(220,103,220);
+  background-color: rgb(220, 103, 220);
   border-bottom: 2px solid rgb(79, 49, 122);
   box-sizing: border-box;
 }
@@ -154,4 +154,48 @@ main {
 
 .about h1 a:hover {
   color: rgb(79, 49, 122);
+}
+
+/*==================================*/
+/*==============CONTACT=============*/
+/*==================================*/
+.contact {
+  display: flex;
+}
+
+.contact h1 {
+  font-family: Quicksand;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact-left {
+  width: 50%;
+}
+
+.contact-right {
+  width: 50%;
+}
+
+.contact-right a {
+  text-decoration: none;
+  color: rgb(220, 103, 220);
+}
+
+.contact-right a:visited {
+  color: rgb(220, 103, 220);
+}
+
+.contact-right ul {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-right li {
+  padding: 20px;
+  list-style-type: none;
+  font-size: 60px;
 }
