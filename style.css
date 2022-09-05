@@ -1,0 +1,71 @@
+/*==================================*/
+/*===============BASE===============*/
+/*==================================*/
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url("fonts/Quicksand-Regular.ttf") format("truetype");
+}
+
+/*==================================*/
+/*==============HEADER==============*/
+/*==================================*/
+.page-header .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header {
+  background-color: rgb(220,103,220);
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.page-header a {
+  text-decoration: none;
+  color: #000;
+  font-family: Quicksand, sans-serif;
+}
+
+.page-header a:visited {
+  color: #000;
+}
+
+.page-header a:hover {
+  color: rgb(79, 49, 122);
+}
+
+.header-left {
+  display: flex;
+  width: 100%;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.header-right ul {
+  display: flex;
+  margin: auto 0;
+}
+
+.header-right ul li {
+  list-style: none;
+}
+
+.header-right ul li a {
+  padding-right: 20px;
+  color: #000;
+}
