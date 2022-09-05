@@ -69,3 +69,45 @@ body {
   padding-right: 20px;
   color: #000;
 }
+
+/*==================================*/
+/*===============MAIN===============*/
+/*==================================*/
+main {
+  background-color: rgb(105, 92, 175);
+}
+
+.home {
+  display: flex;
+}
+
+.home-left {
+  width: 50%;
+  margin: auto 0 auto 40px;
+}
+
+.home-left h1 {
+  margin: 0;
+}
+
+.home-left li {
+  list-style: none;
+  padding: 5px 0 5px 0;
+  font-size: 24px;
+}
+
+.home-left h1, .home-left h2, .home-left li {
+  font-family: Quicksand;
+  text-align: center;
+}
+
+.home-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-right img {
+  width: 300px;
+  margin-bottom: 90px;
+}
