@@ -15,8 +15,12 @@ body {
   margin: 0 auto;
 }
 
-hr {
+.top-break {
   border: 1px solid rgb(79, 49, 122);
+}
+
+.bottom-break {
+  border: 1px solid rgb(53, 38, 75);
 }
 
 @font-face {
@@ -83,7 +87,11 @@ hr {
 /*===============HOME===============*/
 /*==================================*/
 main {
-  background-color: rgb(105, 92, 175);
+  background: rgb(105,93,175); /* Old browsers */
+  background: -moz-linear-gradient(top, rgb(105,93,175) 0%, rgb(79,49,122) 100%, rgb(105,93,175) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(105,93,175) 0%,rgb(79,49,122) 100%,rgb(105,93,175) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(105,93,175) 0%,rgb(79,49,122) 100%,rgb(105,93,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#695daf', endColorstr='#695daf',GradientType=0 ); /* IE6-9 */
 }
 
 .home {
@@ -156,6 +164,10 @@ main {
   color: rgb(79, 49, 122);
 }
 
+.about p {
+  margin-bottom: 40px;
+}
+
 /*==================================*/
 /*==============CONTACT=============*/
 /*==================================*/
@@ -176,17 +188,21 @@ main {
   width: 50%;
 }
 
+.contact-left h1 {
+  margin-bottom: 50px;
+}
+
 .contact-right {
   width: 50%;
 }
 
 .contact-right a {
   text-decoration: none;
-  color: rgb(220, 103, 220);
+  color: rgb(199, 76, 180);
 }
 
 .contact-right a:visited {
-  color: rgb(220, 103, 220);
+  color: rgb(199, 76, 180);
 }
 
 .contact-right ul {
