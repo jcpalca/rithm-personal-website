@@ -88,10 +88,10 @@ body {
 /*==================================*/
 main {
   background: rgb(105,93,175); /* Old browsers */
-  background: -moz-linear-gradient(top, rgb(105,93,175) 0%, rgb(79,49,122) 100%, rgb(105,93,175) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgb(105,93,175) 0%,rgb(79,49,122) 100%,rgb(105,93,175) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgb(105,93,175) 0%,rgb(79,49,122) 100%,rgb(105,93,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#695daf', endColorstr='#695daf',GradientType=0 ); /* IE6-9 */
+  background: -moz-linear-gradient(top, rgb(105,93,175) 0%, rgb(79,49,122) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(105,93,175) 0%,rgb(79,49,122) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(105,93,175) 0%,rgb(79,49,122) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#695daf', endColorstr='#4f317a',GradientType=0 ); /* IE6-9 */
 }
 
 .home {
