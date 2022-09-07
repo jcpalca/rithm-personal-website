@@ -167,9 +167,13 @@ main {
 }
 
 .about p {
-  margin-bottom: 40px;
   font-family: Quicksand, sans-serif;
   line-height: 1.5;
+  font-size: 16px;
+}
+
+.about p:last-child {
+  margin-bottom: 40px;
 }
 
 /*==================================*/
