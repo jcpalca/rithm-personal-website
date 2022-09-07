@@ -184,12 +184,16 @@ main {
   text-align: center;
 }
 
+.contact p {
+  font-size: 20px;
+}
+
 .contact-left {
   width: 50%;
 }
 
 .contact-left h1 {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .contact-right {
