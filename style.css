@@ -205,6 +205,10 @@ main {
   color: rgb(199, 76, 180);
 }
 
+.contact-right a:hover {
+  color: rgb(220, 103, 220);
+}
+
 .contact-right ul {
   display: flex;
   justify-content: center;
