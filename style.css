@@ -42,6 +42,8 @@ body {
   background-color: rgb(220, 103, 220);
   border-bottom: 2px solid rgb(79, 49, 122);
   box-sizing: border-box;
+  position: sticky;
+  top: 0;
 }
 
 .page-header a {
