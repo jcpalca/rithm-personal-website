@@ -177,12 +177,8 @@ main {
   display: flex;
 }
 
-.contact h1 {
+.contact h1, .contact p {
   font-family: Quicksand, sans-serif;
-  text-align: center;
-}
-
-.contact p {
   text-align: center;
 }
 
