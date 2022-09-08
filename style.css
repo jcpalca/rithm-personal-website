@@ -265,7 +265,7 @@ main {
 
 @media screen and (max-width: 576px) {
   h1, h2, .home-left li, .about p, .header-right ul li a {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .home-right img {
