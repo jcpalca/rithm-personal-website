@@ -5,6 +5,11 @@ body {
   margin: 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper {
   width: 1150px;
   margin: 0 auto;
@@ -44,6 +49,11 @@ body {
   box-sizing: border-box;
   position: sticky;
   top: 0;
+  z-index: 999;
+}
+
+.page-header h1 {
+  margin-left: 50px;
 }
 
 .page-header a {
@@ -226,4 +236,91 @@ main {
   padding: 20px;
   list-style-type: none;
   font-size: 60px;
+}
+
+/*==================================*/
+/*===========MEDIA QUERIES==========*/
+/*==================================*/
+@media screen and (max-width: 1150px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .wrapper-2 {
+    width: 70%;
+  }
+
+  .contact-right li {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contact-right li {
+    font-size: 35px;
+    padding: 15px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h1, h2, .home-left li, .about p, .header-right ul li a {
+    font-size: 14px;
+  }
+
+  .home-right img {
+    width: 150px;
+  }
+
+  .header-left {
+    font-size: 12px;
+  }
+
+  .home {
+    display: block;
+  }
+
+  .home h1:first-child {
+    padding-top: 40px;
+  }
+
+  .home-left {
+    margin: 0 auto;
+  }
+
+  .home-right {
+    margin: 0 auto;
+  }
+
+  .contact-left p {
+    font-size: 10px;
+  }
+
+  .contact-right li {
+    font-size: 25px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1, h2, .home-left li, .about p, .header-right ul li a {
+    font-size: 10px;
+  }
+
+  .about img {
+    width: 270px;
+    box-sizing: border-box;
+  }
+
+  .header-left {
+    font-size: 6px;
+  }
+
+  .contact-left p {
+    font-size: 8px;
+  }
+
+  .contact-right li {
+    font-size: 18px;
+  }
 }
